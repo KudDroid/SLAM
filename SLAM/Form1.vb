@@ -100,6 +100,13 @@ Public Class Form1
         dods.libraryname = "dods\"
         Games.Add(dods)
 
+        Dim synergy As New SourceGame
+        synergy.name = "Synergy"
+        synergy.directory = "common\synergy\"
+        synergy.ToCfg = "synergy\cfg\"
+        synergy.libraryname = "synergy\"
+        Games.Add(synergy)
+
         'NEEDS EXENAME!!!
         'Dim goldeye As New SourceGame
         'goldeye.name = "Goldeneye Source"
